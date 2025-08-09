@@ -16,9 +16,9 @@ function punto_3(num){
     let res = ""
 
     if (num % 2 === 0) {
-        res = "par"
+        res = true
     } else{
-        res = "impar"
+        res = false
     }    
     return res
 }
@@ -60,7 +60,7 @@ function punto_4(num){
     return res
 }
 
-console.log(punto_1(-40))
-console.log(punto_2(1,5,4,0))
-console.log(punto_3(4))
+console.log(punto_1(40))
+console.log(punto_2(1,5,4,1))
+console.log(punto_3(5))
 console.log(punto_4(4))
