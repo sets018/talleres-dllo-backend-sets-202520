@@ -64,8 +64,4 @@ function missingNumbers(nums_list){
     return missingNumbers
 }
 
-console.log(findMax([3,17,-1,4,-19]))
-console.log(includes([3,17,-1,4,-19],2))
-console.log(includes([3,17,-1,4,-19],4))
-console.log(sum([3,17,-1,4,-19]))
-console.log(missingNumbers([7,2,4,6,3,9]))
+export { findMax, findMin, includes, sum, missingNumbers };

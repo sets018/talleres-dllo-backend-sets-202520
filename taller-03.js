@@ -91,12 +91,7 @@ function descomposicion(input_string){
   return null
 }
 
-console.log(desglosarString("murcielagos", "vocales"))
-console.log(desglosarString("murcielagos", "consonantes"))
-console.log(twoSum([2, 7, 11, 15], 9))
-console.log(twoSum([3, 4, 2], 6))
-console.log(conversionRomana("MCMXCVII"))
-console.log(descomposicion("malhumor,al,hum,humor,m,mal,malhu"))
+export { desglosarString, twoSum, conversionRomana, descomposicion };
 
 
 

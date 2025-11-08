@@ -1,8 +1,8 @@
-function punto_1(c){
+function convertidorTemp(c){
     return (c * 9/5) + 32 
 }
 
-function punto_2(a, b, c, sw){
+function resolvedor(a, b, c, sw){
     root = Math.sqrt(b**2 - 4*a*c)
     if (sw === 0) {
         up = -b - root
@@ -12,7 +12,7 @@ function punto_2(a, b, c, sw){
     return up / 2*a
 }
 
-function punto_3(num){
+function mejorParidad(num){
     let res = ""
 
     if (num % 2 === 0) {
@@ -23,7 +23,7 @@ function punto_3(num){
     return res
 }
 
-function punto_4(num){
+function peorParidad(num){
     let res = ""
 
     if (num === 0) {
@@ -60,7 +60,4 @@ function punto_4(num){
     return res
 }
 
-console.log(punto_1(40))
-console.log(punto_2(1,5,4,1))
-console.log(punto_3(5))
-console.log(punto_4(4))
+export { convertidorTemp, resolvedor, mejorParidad, peorParidad };
